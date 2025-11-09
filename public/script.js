@@ -60,7 +60,8 @@ const handleCredentialResponse = (response) => {
 const initGoogleAuth = () => {
   try {
     google.accounts.id.initialize({
-      client_id: '1020687046301-6mq2hmhnk8vr63qq3hqgmp5sjsc6emm5.apps.googleusercontent.com',
+                  
+      client_id: '1072493024103-3mt273208t7puim1rkooedprhk1qpru8.apps.googleusercontent.com',
       callback: handleCredentialResponse,
       auto_select: false
     });
